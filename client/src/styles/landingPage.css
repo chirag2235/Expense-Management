@@ -1,0 +1,34 @@
+.landingPage-container{
+    height: 100%;
+    width: 100%;
+    background-image: url('../pictures/landing-bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* background-image: url('../pictures/landing-bg.webp'); */
+}
+
+.info-container{
+    width:600px;
+    /* border: 2px solid white; */
+}
+
+@media (max-width:650px){
+    .info-container{
+        width:90%;
+    }
+}
+
+
+@media (max-width:346px){
+    .info-heading{
+        font-size: 30px;
+    }
+    .login-btn,.signup-btn{
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .footer{
+        display: none;
+    }
+}

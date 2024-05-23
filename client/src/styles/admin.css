@@ -1,0 +1,77 @@
+.admin-container {
+  padding: 20px;
+}
+
+.admin-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Adjust font color */
+  font-weight: bold; /* Adjust font weight */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  color: #333; /* Adjust font color */
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Expense heading div */
+.expense-heading-div {
+  height: 10%;
+  color: #333; /* Adjust font color */
+}
+
+/* Total expense div */
+.total-expense-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13%;
+  font-size: 25px;
+  font-weight: bold;
+  color: #333; /* Adjust font color */
+}
+
+/* Income input and display */
+.income-input-and-display {
+  height: 77%;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

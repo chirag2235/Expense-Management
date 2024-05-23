@@ -1,0 +1,36 @@
+
+
+.login-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.login-left-part{
+width: 40%;
+/* border: 1px solid red; */
+color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.login-left-image-container{
+    /* border: 1px solid red; */
+    height:80%;
+    width: 90%;
+    background-image: url("../../assets/images/login-art.svg");
+    background-repeat: no-repeat;
+}
+
+.login-right-part{
+
+width: 60%;
+/* border: 1px solid red; */
+color: black;
+padding-top: 5%;
+}
+
+.input-fields-container{
+    width: 50%;
+}

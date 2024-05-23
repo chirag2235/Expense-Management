@@ -1,0 +1,43 @@
+.expense-heading-div{
+    /* border: 2px solid red; */
+    height:10%;
+}
+
+.total-expense-div{
+    /* border: 2px solid black; */
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height:13%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* 10+13 ==> 23     100-23 ==>77 */
+.income-input-and-display{
+    height:77%;
+    /* border: 3px solid rgb(32, 32, 19); */
+}
+
+
+
+
+/*------------ scrool bar styling ------------------- */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+ 
+
